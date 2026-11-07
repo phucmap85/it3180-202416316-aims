@@ -41,3 +41,11 @@ class Cart:
             print(f"{i}. {item}")
         print(f"Total cost: {self.total_cost():.2f} $")
         print("***************************************************")
+
+    def sort_by_title(self):
+        """Sắp xếp các đĩa trong giỏ hàng theo tiêu đề (title)."""
+        self.items.sort(key=lambda item: item.title)
+
+    def sort_by_cost(self, reverse=False):
+        """Sắp xếp các đĩa trong giỏ hàng theo giá tiền (cost)."""
+        self.items.sort(key=lambda item: item.cost, reverse=reverse)
