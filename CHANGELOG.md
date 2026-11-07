@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+- Tìm kiếm theo tiêu đề không phân biệt chữ hoa, chữ thường (Refs #18).
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
